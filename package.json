@@ -1,0 +1,21 @@
+{
+  "name": "project-ray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack --colors --watch",
+    "build": "BUILD_TARGET=./build NODE_ENV=production webpack --optimize-minimize"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "webpack": "4.8.1",
+    "webpack-cli": "2.1.3"
+  }
+}
